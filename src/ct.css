@@ -1,0 +1,86 @@
+
+body{
+    background-color: #EDE7E7;
+}
+
+.heading{
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.para{
+ 
+  text-align: center;
+
+  font-size: 24px;
+  padding: 10px;
+  
+
+   
+}
+.paradiv{
+    width: 800px; /* Set the width of the container to 400px */
+    padding: 20px; 
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Adjust the height as needed, this sets it to full viewport height */
+    /* Add background or other container styles if needed */
+  }
+  
+
+.images img{
+
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.images{
+    padding: 20px;
+    margin: 20px;
+}
+
+.imagecontainer{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+  .Linkk {
+    color: #000000; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    padding: 10px 20px; /* Padding inside the buttons */
+
+    border: 2px solid #000000; /* Button border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+  }
+  
+  .Linkk:hover {
+    background-color: #000000; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+
+.images h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.images h3{
+
+    padding-bottom: 10px;
+
+}
+

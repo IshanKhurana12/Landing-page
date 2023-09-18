@@ -1,0 +1,36 @@
+.photolist{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+ 
+    margin: 10px;
+    list-style-type: none;
+   
+}
+
+
+
+.Links{
+ text-decoration: none;
+ color: black;
+ padding: 10px;
+ align-content: center;
+}
+
+.li{
+    text-decoration: none;
+}
+
+.active {
+    color: black; /* Change the color for active links */
+    font-size: 18px;
+    font-weight: bold; /* Add additional styling for active links */
+  }
+
+
+
+  .navhandle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
